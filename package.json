@@ -16,5 +16,8 @@
   "devDependencies": {
     "@sanity/cli": "^2.1.0",
     "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "gatsby-source-pg": "^0.2.1"
   }
 }

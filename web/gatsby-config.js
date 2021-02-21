@@ -29,6 +29,13 @@ module.exports = {
         watchMode: !isProd,
         overlayDrafts: !isProd
       }
-    }
+    },
+    {
+      resolve: 'gatsby-source-pg',
+      options: {
+        connectionString: process.env.DATABASE_URL,
+        schema: 'public',
+      },
+    },
   ]
 };
